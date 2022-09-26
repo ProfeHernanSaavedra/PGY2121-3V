@@ -26,7 +26,7 @@ public class Collar extends Joya{
 
     @Override
     public String toString() {
-        return "Collar{" + "largoCadena=" + largoCadena + '}';
+        return super.toString()+"Collar{" + "largoCadena=" + largoCadena + '}';
     }
     
     
